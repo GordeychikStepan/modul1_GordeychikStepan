@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/backImage"
+            android:layout_width="18dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/arrow_back" />
+
+        <TextView
+            android:id="@+id/chatTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/messageInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="18dp">
+
+        <EditText
+            android:id="@+id/messageEditText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:minHeight="40dp"
+            android:layout_gravity="center"
+            android:hint="@string/write_message"
+            android:background="@drawable/border_to_send_message"
+            android:textColorHint="@color/light_grey"
+            android:textColor="@color/white"
+            android:maxLines="3"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/send_message_button" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

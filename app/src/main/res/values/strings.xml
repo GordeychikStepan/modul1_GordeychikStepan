@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CinemaApp</string>
+    <string name="email">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="re_password">Повторите пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="register">Регистрация</string>
+    <string name="to_register">Зарегистрироваться</string>
+    <string name="i_have_account">У меня уже есть аккаунт</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Главное</string>
+    <string name="title_collection">Коллекции</string>
+    <string name="title_set">Подборка</string>
+    <string name="title">Название</string>
+    <string name="create_collection">Создать коллекцию</string>
+    <string name="delete_collection">Удалить коллекцию</string>
+    <string name="delete_film">Удалить фильм</string>
+    <string name="select_icon">Выбрать иконку</string>
+    <string name="save">Сохранить</string>
+    <string name="add">Добавить</string>
+    <string name="select_image">Выбрать изображение</string>
+    <string name="movie_title">Название фильма</string>
+    <string name="movie_author">Автор фильма</string>
+    <string name="movie_info">Детали фильма:</string>
+    <string name="captain_marvel">Captain Marvel</string>
+    <string name="comments">Обсуждения</string>
+    <string name="history">История</string>
+    <string name="settings">Настройки</string>
+    <string name="exit">Выход</string>
+    <string name="profile">Профиль</string>
+    <string name="discussions">Обсуждения</string>
+    <string name="center_point">•</string>
+    <string name="write_message">Напишите сообщение...</string>
+    <string name="title_set_for">Подборка - %1$s %2$d года:</string>
+    <string name="to_change">Изменить</string>
+
+</resources>

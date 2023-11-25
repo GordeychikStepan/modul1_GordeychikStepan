@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="message_margin">20dp</dimen>
+    <dimen name="message_margin_base">6dp</dimen>
+</resources>
